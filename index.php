@@ -12,7 +12,7 @@ $order_id = uniqid(); // Generate unique order ID
 <h2>Simple PayHere Payment</h2>
 
 <form method="post" action="https://sandbox.payhere.lk/pay/checkout">
-    <input type="hidden" name="merchant_id" value="YOUR_MERCHANT_ID">
+    <input type="hidden" name="merchant_id" value="4OVxzM0Nh9E4JFnJecjZlA3HE">
     <input type="hidden" name="return_url" value="http://localhost/return.php">
     <input type="hidden" name="cancel_url" value="http://localhost/cancel.php">
     <input type="hidden" name="notify_url" value="http://localhost/notify.php">
